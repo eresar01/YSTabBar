@@ -13,7 +13,9 @@ final class YSTabBarItemView: UIView {
     }()
     
     lazy var iconImage: UIImageView = {
-        return UIImageView()
+        let image = UIImageView()
+        image.contentMode = .scaleAspectFill
+        return image
     }()
     
     var isSelected: Bool = false {

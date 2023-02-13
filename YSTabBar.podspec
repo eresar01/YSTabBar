@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name = 'YSTabBar'
   s.version = '1.0.0'
   s.license = 'MIT'
-  s.summary = 'Test framework'
+  s.summary = 'YSTabBar is fully customizable tab bar controller which has unique center item.'
   s.homepage = 'https://github.com/eresar01/YSTabBar'
   s.authors = { 'Yerem Sargsyan' => 'eresar01@gmail.com' }
   

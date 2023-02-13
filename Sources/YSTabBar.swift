@@ -8,19 +8,19 @@
 
 import UIKit
 
-protocol YSTabBarCoorinator: AnyObject {
+public protocol YSTabBarCoorinator: AnyObject {
     var item: UITabBarItem { get }
     var correctedInsets: UIEdgeInsets { get set }
 }
 
-protocol YSTabBarDelegate: AnyObject {
+public protocol YSTabBarDelegate: AnyObject {
     func tabBar(_ sender: YSTabBar, didSelectItemAt index: Int)
     func centerButton(_ sender: UIButton)
 }
 
 open class YSTabBar: UITabBarController {
     
-    weak var tabBarDelegate: YSTabBarDelegate?
+    weak open var tabBarDelegate: YSTabBarDelegate?
     
     @IBInspectable public var radiusCenter: CGFloat = 35 {
         didSet {
@@ -79,6 +79,13 @@ open class YSTabBar: UITabBarController {
     public var buttonConfiguration: UIButton.Configuration? {
         didSet {
             updateTabBar()
+        }
+    }
+    
+    public var items: [UITabBarItem] = [] {
+        didSet {
+            tabBarView.items = items
+            tabBarView.reloadApperance()
         }
     }
     
