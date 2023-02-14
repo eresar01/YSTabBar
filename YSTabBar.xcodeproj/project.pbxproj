@@ -23,6 +23,7 @@
 		CE1EBB23299A3F12002AE0DA /* YSTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSTabBarView.swift; sourceTree = "<group>"; };
 		CE1EBB25299A3F79002AE0DA /* YSViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSViewStyle.swift; sourceTree = "<group>"; };
 		CE1EBB27299A3FA6002AE0DA /* YSTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSTabBar.swift; sourceTree = "<group>"; };
+		CE49D99C299B7D440032DB6E /* Example */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Example; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +40,7 @@
 		CE1EBB09299A3D10002AE0DA = {
 			isa = PBXGroup;
 			children = (
+				CE49D99C299B7D440032DB6E /* Example */,
 				CE1EBB15299A3D10002AE0DA /* Sources */,
 				CE1EBB14299A3D10002AE0DA /* Products */,
 			);

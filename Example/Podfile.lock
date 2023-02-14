@@ -1,0 +1,16 @@
+PODS:
+  - YSTabBar (1.0.1)
+
+DEPENDENCIES:
+  - YSTabBar (~> 1.0.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - YSTabBar
+
+SPEC CHECKSUMS:
+  YSTabBar: 4c5330fd13c2af4e531475d3b390ca3a6074d5b5
+
+PODFILE CHECKSUM: f1fc63848ea397253c543040bce84899e63b303a
+
+COCOAPODS: 1.11.3
