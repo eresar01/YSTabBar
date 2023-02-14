@@ -44,7 +44,7 @@ The simplest use-case is setting a TabBarController
 ```swift
 import YSTabBar
 
-class MyTabBar: YSTabBar 
+class MyTabBarController: YSTabBar 
 
 tabBarStyle = .hole
 let coordinators: [YSTabBarCoorinator] = [FirstVC(), SecondVC()]
