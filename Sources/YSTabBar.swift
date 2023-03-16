@@ -150,11 +150,14 @@ open class YSTabBar: UITabBarController {
     public func hideTabBar() {
         buttomView.isHidden = true
         tabBarView.isHidden = true
+        view.removeFromSuperview()
+        centerButton?.removeFromSuperview()
     }
 
     public func showTabBar() {
         buttomView.isHidden = false
         tabBarView.isHidden = false
+        setupCentorButton()
     }
 
     fileprivate func setupTabBar() {
