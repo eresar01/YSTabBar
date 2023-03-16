@@ -147,12 +147,12 @@ open class YSTabBar: UITabBarController {
         tabBarView.select(at: selectedIndex)
     }
 
-    func hideTabBar() {
+    public func hideTabBar() {
         buttomView.isHidden = true
         tabBarView.isHidden = true
     }
 
-    func showTabBar() {
+    public func showTabBar() {
         buttomView.isHidden = false
         tabBarView.isHidden = false
     }
